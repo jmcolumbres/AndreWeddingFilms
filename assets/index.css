@@ -1,0 +1,275 @@
+html {
+   
+}
+
+
+body {
+    margin: 0 !important;
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+}
+
+
+* {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.header {
+    height: 600px;
+    color: white !important;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+}
+
+.container-fluid {
+    margin: 0 !important;
+}
+
+.nav-domain {
+   /* background-color: red;*/
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-domain > .logo > img {
+    border-radius: 100%;
+    width: 15%;
+}
+
+.nav-domain > .logo {
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo > h2 {
+    font-size: 100%;
+}
+
+.div-nav {
+    height: 100%;
+    /*background-color: blue;*/
+}
+
+.div-nav > .list-parent {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.list-parent > li {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px 20px;
+    font-size: 90%;
+}
+
+.list-parent > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-header {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 200px;
+    text-align: center;
+}
+
+.main-header > p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main-header > button {
+    background-color: rgb(171, 171, 171);
+    font-size: 15px;
+    padding: 15px;
+    width: 20%;
+    border: 1px solid rgb(171, 171, 171);
+}
+
+
+.main-header > button:hover {
+    background-color: rgb(222, 222, 222);
+    border: 1px solid rgb(222, 222, 222);
+}
+
+
+.header-main-child1 {
+    letter-spacing: 30px;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 200px;
+}
+
+.about-1 {
+    padding: 0 100px;
+}
+
+.about-1 > h2 {
+    letter-spacing: 3px;
+}
+
+.about-1 > p {
+    letter-spacing: 1.5px;
+}
+
+.about-2 {
+
+}
+
+.about-2 > img {
+    width: 500px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-group > a {
+    cursor: pointer;
+    border:  none;
+    background: none;
+    margin: 0 10px;
+}
+
+.button-group > a > img {
+    transition: width ease-in-out 0.2s;
+    width: 30px;
+    filter: grayscale(50%);
+}
+
+.button-group > a > img:hover{
+    width: 32px;
+}
+
+
+.portfolio-wid {
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.portfolio-wid > i {
+    letter-spacing: 4px !important;
+}
+
+.pic-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.pic-group > img {
+    margin: 20px ;
+    width: 300px;
+}
+
+.pricing-css {
+    cursor: pointer;
+    padding: 20px 100px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.pricing-child {
+    background-color: rgb(255, 250, 214);
+    transition: background ease-in-out 0.5s;
+    padding: 20px;
+    margin: 20px; 
+}
+
+.pricing-child:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.listing-meme > ol {
+    list-style-type: none;
+}
+
+.listing-mememe {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.listing-mememe > h3 {
+    color: rgb(131, 131, 131);
+    padding: 2px;
+    font-size: 90%;
+}
+
+.listing-mememe > h1 {
+    
+}
+
+.listing-meme > ol > li {
+    letter-spacing: 2px;
+}
+
+footer {
+    padding: 60px;
+    text-align: center;
+    background-color: aliceblue;    
+}
+
+.inquire-box {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.form-body {
+    background-color: white;
+    padding: 50px 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputs_inquire {
+    padding: 10px;
+    margin: 10px;
+}
+
+.custom-btn-inquire {
+    width: 98%;
+}
+
+#inquire-close {
+    background-color: none;
+    border: none;
+}
+
