@@ -166,6 +166,7 @@ body {
 .portfolio-wid {
     text-align: center;
     letter-spacing: 10px;
+    padding: 50px 0;
     background-color: rgb(240, 240, 240);
 }
 
@@ -189,8 +190,8 @@ body {
 
 .pricing-css {
     cursor: pointer;
-    padding: 20px 100px;
-    height: 600px;
+    padding: 100px 100px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,6 +204,8 @@ body {
     transition: background ease-in-out 0.5s;
     padding: 20px;
     margin: 20px; 
+    width: 50%;
+    height: 700px;
 }
 
 .pricing-child:hover {
@@ -219,21 +222,35 @@ body {
     flex-direction: row;
 }
 
+#packages-inquire > input {
+    padding: 100px;
+}
+
 .listing-mememe > h3 {
     color: rgb(131, 131, 131);
     padding: 2px;
     font-size: 90%;
-}
-
-.listing-mememe > h1 {
     
 }
 
+.listing-mememe > h1 {
+   font-size: 2em;
+}
+
 .listing-meme > ol > li {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+.listing-meme > ol > li > span {
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: cornflowerblue;
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 60px;
     text-align: center;
     background-color: aliceblue;    
@@ -262,6 +279,7 @@ footer {
 .inputs_inquire {
     padding: 10px;
     margin: 10px;
+    width: 100%;
 }
 
 .custom-btn-inquire {
@@ -273,3 +291,28 @@ footer {
     border: none;
 }
 
+.footer-child-1 {
+    display: flex;
+    
+}
+
+.footer-child-1 > img {
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 20px 0;
+    width: 50px;
+    border-radius: 100%;
+    transition: filter ease-in-out 0.5s;
+}
+
+.footer-child-1 > img:hover {
+    filter: invert(100%);
+}
+
+.footer-child-2 {
+    color:rgb(130, 130, 130);
+    padding: 20px;
+}
+.footer-child-3 {
+    font-weight: 1000;
+}
